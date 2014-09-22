@@ -5,11 +5,16 @@ gem 'rails', '4.1.1'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 3.1.2'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
+gem 'pg', '~> 0.17.1' 
+gem 'minitest-rails'
+gem 'minitest-reporters'
+gem 'better_errors'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -23,13 +28,12 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 group :test do
 	'minitest-reporters'
-	'mini_backtrace'
+	'mini_backtrace' 
 	'guard_minitest'
 end
 
 group :production do
-	gem 'pg' 
-	gem 'rails_12factor'
+	gem 'rails_12factor', '~> 0.0.2'
 end
 
 group :development do
