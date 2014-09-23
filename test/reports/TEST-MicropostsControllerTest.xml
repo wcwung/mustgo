@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MicropostsControllerTest" skipped="0" failures="0" errors="0" tests="7" assertions="13" time="0.16049162600000003">
+  <testcase name="test_should_create_micropost" classname="MicropostsControllerTest" assertions="3" time="0.059814864">
+  </testcase>
+  <testcase name="test_should_destroy_micropost" classname="MicropostsControllerTest" assertions="3" time="0.010011608">
+  </testcase>
+  <testcase name="test_should_get_edit" classname="MicropostsControllerTest" assertions="1" time="0.055855702">
+  </testcase>
+  <testcase name="test_should_get_index" classname="MicropostsControllerTest" assertions="2" time="0.009485284">
+  </testcase>
+  <testcase name="test_should_get_new" classname="MicropostsControllerTest" assertions="1" time="0.009516014">
+  </testcase>
+  <testcase name="test_should_show_micropost" classname="MicropostsControllerTest" assertions="1" time="0.008169474">
+  </testcase>
+  <testcase name="test_should_update_micropost" classname="MicropostsControllerTest" assertions="2" time="0.00763868">
+  </testcase>
+</testsuite>

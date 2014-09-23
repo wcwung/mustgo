@@ -3,7 +3,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require "rails/test_help"
 require "minitest/rails"
 require "minitest/reporters"
-Minitest::Reporters.use!
+Minitest::Reporters.use! [Minitest::Reporters::SpecReporter.new, Minitest::Reporters::JUnitReporter.new]
 
 
 # To add Capybara feature tests add `gem "minitest-rails-capybara"`

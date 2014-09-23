@@ -39,3 +39,7 @@ end
 group :development do
   gem 'thin'
 end
+
+group :development, :test do
+  gem 'pry-rails', '~> 0.3.2'
+end
