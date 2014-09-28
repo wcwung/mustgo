@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserTest" skipped="0" failures="0" errors="1" tests="1" assertions="0" time="0.001790272">
+  <testcase name="test_should_get_new" classname="UserTest" assertions="0" time="0.001790272">
+    <error type="test_should_get_new" message="NoMethodError: undefined method `get' for #&lt;UserTest:0x00000001cd7cc8&gt;...">
+Failure:
+test_should_get_new(UserTest) [/vagrant/test/models/user_test.rb:9]:
+NoMethodError: undefined method `get' for #&lt;UserTest:0x00000001cd7cc8&gt;
+    /vagrant/test/models/user_test.rb:9:in `block in &lt;class:UserTest&gt;'
+    </error>
+  </testcase>
+</testsuite>

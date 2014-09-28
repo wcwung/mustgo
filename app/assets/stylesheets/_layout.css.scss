@@ -1,0 +1,50 @@
+@import "config";
+
+body {
+	background: #fff;
+}
+
+#logo {
+	position: absolute;
+	top: 0;
+	margin-top: 5px;
+	color: #fff;
+	font-size: 32px;
+	& a {
+		color: inherit;
+	}
+}
+
+.container.main {
+	margin-top: 100px;
+}
+
+// footer 
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eee;
+	color: #777;
+
+	& a {
+		color: #555;
+	}
+
+	& a:hover {
+		color: #222;
+	}
+
+	& small {
+		float: left;
+	}
+
+	& ul {
+		float: right;
+		list-style: none;
+	}
+
+	& ul li {
+		float: left;
+		margin-left: 15px;
+	}
+}

@@ -14,6 +14,8 @@ gem 'pg', '~> 0.17.1'
 gem 'minitest-rails'
 gem 'minitest-reporters'
 gem 'better_errors'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

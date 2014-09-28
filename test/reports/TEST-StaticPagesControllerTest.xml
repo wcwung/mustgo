@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StaticPagesControllerTest" skipped="0" failures="1" errors="0" tests="4" assertions="8" time="0.039196881">
-  <testcase name="test_should_get_about" classname="StaticPagesControllerTest" assertions="2" time="0.019195736">
+<testsuite name="StaticPagesControllerTest" skipped="0" failures="0" errors="0" tests="4" assertions="8" time="0.058596246">
+  <testcase name="test_should_get_about" classname="StaticPagesControllerTest" assertions="2" time="0.021220015">
   </testcase>
-  <testcase name="test_should_get_contact" classname="StaticPagesControllerTest" assertions="2" time="0.006778515">
+  <testcase name="test_should_get_contact" classname="StaticPagesControllerTest" assertions="2" time="0.009872364">
   </testcase>
-  <testcase name="test_should_get_help" classname="StaticPagesControllerTest" assertions="2" time="0.006303315">
+  <testcase name="test_should_get_help" classname="StaticPagesControllerTest" assertions="2" time="0.010050278">
   </testcase>
-  <testcase name="test_should_get_home" classname="StaticPagesControllerTest" assertions="2" time="0.006919315">
-    <failure type="test_should_get_home" message="&lt;MustGo&gt; expected but was...">
-Failure:
-test_should_get_home(StaticPagesControllerTest) [/vagrant/test/controllers/static_pages_controller_test.rb:7]:
-&lt;MustGo&gt; expected but was
-&lt;MustGo |&gt;..
-Expected 0 to be &gt;= 1.
-    </failure>
+  <testcase name="test_should_get_home" classname="StaticPagesControllerTest" assertions="2" time="0.017453589">
   </testcase>
 </testsuite>
