@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserTest" skipped="0" failures="0" errors="1" tests="1" assertions="0" time="0.001790272">
-  <testcase name="test_should_get_new" classname="UserTest" assertions="0" time="0.001790272">
-    <error type="test_should_get_new" message="NoMethodError: undefined method `get' for #&lt;UserTest:0x00000001cd7cc8&gt;...">
-Failure:
-test_should_get_new(UserTest) [/vagrant/test/models/user_test.rb:9]:
-NoMethodError: undefined method `get' for #&lt;UserTest:0x00000001cd7cc8&gt;
-    /vagrant/test/models/user_test.rb:9:in `block in &lt;class:UserTest&gt;'
-    </error>
+<testsuite name="UserTest" skipped="0" failures="0" errors="0" tests="8" assertions="16" time="0.095051106">
+  <testcase name="test_email_addresses_should_be_unique" classname="UserTest" assertions="1" time="0.050027962">
+  </testcase>
+  <testcase name="test_email_should_be_present" classname="UserTest" assertions="1" time="0.005207314">
+  </testcase>
+  <testcase name="test_email_validation_should_accept_valid_addresses" classname="UserTest" assertions="5" time="0.008902312">
+  </testcase>
+  <testcase name="test_email_validation_should_reject_invalid_addresses" classname="UserTest" assertions="5" time="0.010919126">
+  </testcase>
+  <testcase name="test_name_should_be_present" classname="UserTest" assertions="1" time="0.004591364">
+  </testcase>
+  <testcase name="test_name_should_not_be_too_ong" classname="UserTest" assertions="1" time="0.004715381">
+  </testcase>
+  <testcase name="test_password_should_have_a_minimum_length" classname="UserTest" assertions="1" time="0.006587544">
+  </testcase>
+  <testcase name="test_valid" classname="UserTest" assertions="1" time="0.004100103">
   </testcase>
 </testsuite>

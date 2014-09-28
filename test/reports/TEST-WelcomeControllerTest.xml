@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WelcomeControllerTest" skipped="0" failures="0" errors="0" tests="1" assertions="1" time="0.011114777">
-  <testcase name="test_should_get_index" classname="WelcomeControllerTest" assertions="1" time="0.011114777">
-  </testcase>
-</testsuite>
