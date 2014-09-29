@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserTest" skipped="0" failures="0" errors="0" tests="8" assertions="16" time="0.09102153100000002">
-  <testcase name="test_email_addresses_should_be_unique" classname="UserTest" assertions="1" time="0.047507587">
+<testsuite name="UserTest" skipped="0" failures="0" errors="0" tests="8" assertions="16" time="0.050665712999999994">
+  <testcase name="test_email_addresses_should_be_unique" classname="UserTest" assertions="1" time="0.009617758">
   </testcase>
-  <testcase name="test_email_should_be_present" classname="UserTest" assertions="1" time="0.004351818">
+  <testcase name="test_email_should_be_present" classname="UserTest" assertions="1" time="0.002876001">
   </testcase>
-  <testcase name="test_email_validation_should_accept_valid_addresses" classname="UserTest" assertions="5" time="0.00881797">
+  <testcase name="test_email_validation_should_accept_valid_addresses" classname="UserTest" assertions="5" time="0.00845053">
   </testcase>
-  <testcase name="test_email_validation_should_reject_invalid_addresses" classname="UserTest" assertions="5" time="0.011414439">
+  <testcase name="test_email_validation_should_reject_invalid_addresses" classname="UserTest" assertions="5" time="0.009317833">
   </testcase>
-  <testcase name="test_name_should_be_present" classname="UserTest" assertions="1" time="0.004029217">
+  <testcase name="test_name_should_be_present" classname="UserTest" assertions="1" time="0.004636049">
   </testcase>
-  <testcase name="test_name_should_not_be_too_ong" classname="UserTest" assertions="1" time="0.005159351">
+  <testcase name="test_name_should_not_be_too_ong" classname="UserTest" assertions="1" time="0.005641839">
   </testcase>
-  <testcase name="test_password_should_have_a_minimum_length" classname="UserTest" assertions="1" time="0.005733021">
+  <testcase name="test_password_should_have_a_minimum_length" classname="UserTest" assertions="1" time="0.00607025">
   </testcase>
-  <testcase name="test_valid" classname="UserTest" assertions="1" time="0.004008128">
+  <testcase name="test_valid" classname="UserTest" assertions="1" time="0.004055453">
   </testcase>
 </testsuite>
