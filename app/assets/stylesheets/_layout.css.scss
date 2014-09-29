@@ -76,21 +76,6 @@ input, textarea, select, .uneditable-input {
 input {
 	height: auto !important;
 }
-
-// Alert Types
-.alert-success {
-	@include box-sizing;
-	background: rgba(39, 174, 96, 0.6);
-	color: #fff;
-	border: 1px dashed green; 
-}
-
-.alert-danger {
-	@include box-sizing;
-	background: rgba(39, 174, 96, 0.6);
-	color: darken(red, 20);
-}
-// footer 
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
