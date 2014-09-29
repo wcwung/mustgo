@@ -17,6 +17,7 @@ gem 'minitest-reporters'
 gem 'better_errors'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+gem 'underglow', '0.1.6'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -45,4 +46,5 @@ end
 
 group :development, :test do
   gem 'pry-rails', '~> 0.3.2'
+  gem 'byebug', '~> 3.4.2'
 end

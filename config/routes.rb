@@ -1,19 +1,13 @@
 Rails.application.routes.draw do
   get 'users/new'
-
   root 'static_pages#home', as: :root
-
-  # StaticPagesController#help
+# StaticPagesController#help
   get 'help' => 'static_pages#help', as: :help
-
   get 'about' => 'static_pages#about', as: :about
-
   get 'contact' => 'static_pages#contact', as: :contact
-
   get 'signup' => 'users#new', as: :signup
-
+  
   resources :microposts
-
   resources :users
 
   get 'welcome/index'
