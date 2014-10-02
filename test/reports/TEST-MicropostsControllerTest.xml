@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MicropostsControllerTest" skipped="0" failures="0" errors="1" tests="7" assertions="12" time="0.165132108">
+  <testcase name="test_should_create_micropost" classname="MicropostsControllerTest" assertions="3" time="0.018063736">
+  </testcase>
+  <testcase name="test_should_destroy_micropost" classname="MicropostsControllerTest" assertions="3" time="0.01010028">
+  </testcase>
+  <testcase name="test_should_get_edit" classname="MicropostsControllerTest" assertions="1" time="0.048513911">
+  </testcase>
+  <testcase name="test_should_get_index" classname="MicropostsControllerTest" assertions="2" time="0.023790409">
+  </testcase>
+  <testcase name="test_should_get_new" classname="MicropostsControllerTest" assertions="1" time="0.023333161">
+  </testcase>
+  <testcase name="test_should_show_micropost" classname="MicropostsControllerTest" assertions="0" time="0.033598924">
+    <error type="test_should_show_micropost" message="ActionView::Template::Error: undefined local variable or method `user' for #&lt;#&lt;Class:0x00000006cc1d10&gt;:0x00000006f4ec90&gt;...">
+Failure:
+test_should_show_micropost(MicropostsControllerTest) [/vagrant/app/views/microposts/show.html.erb:4]:
+ActionView::Template::Error: undefined local variable or method `user' for #&lt;#&lt;Class:0x00000006cc1d10&gt;:0x00000006f4ec90&gt;
+    /vagrant/app/views/microposts/show.html.erb:4:in `_app_views_microposts_show_html_erb__4379076027984458066_58354280'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/template.rb:145:in `block in render'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `block in instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `instrument'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/template.rb:339:in `instrument'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/template.rb:143:in `render'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `block in instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `instrument'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/renderer/renderer.rb:23:in `render'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/rendering.rb:99:in `_render_template'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/streaming.rb:217:in `_render_template'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/rendering.rb:82:in `render_to_body'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/abstract_controller/rendering.rb:25:in `render'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+    /usr/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+    /var/lib/gems/2.1.0/gems/activerecord-4.1.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/abstract_controller/base.rb:189:in `process_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:113:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:113:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:229:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:229:in `block in halting'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:229:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:229:in `block in halting'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:166:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:166:in `block in halting'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:166:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:166:in `block in halting'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:166:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:166:in `block in halting'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:86:in `call'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/callbacks.rb:86:in `run_callbacks'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `block in instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `instrument'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+    /var/lib/gems/2.1.0/gems/activerecord-4.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/abstract_controller/base.rb:136:in `process'
+    /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/rendering.rb:30:in `process'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/test_case.rb:595:in `process'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/test_case.rb:64:in `process'
+    /var/lib/gems/2.1.0/gems/actionpack-4.1.1/lib/action_controller/test_case.rb:495:in `get'
+    /vagrant/test/controllers/microposts_controller_test.rb:28:in `block in &lt;class:MicropostsControllerTest&gt;'
+    </error>
+  </testcase>
+  <testcase name="test_should_update_micropost" classname="MicropostsControllerTest" assertions="2" time="0.007731687">
+  </testcase>
+</testsuite>
