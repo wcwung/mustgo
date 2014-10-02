@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MicropostsControllerTest" skipped="0" failures="0" errors="1" tests="7" assertions="12" time="0.165132108">
-  <testcase name="test_should_create_micropost" classname="MicropostsControllerTest" assertions="3" time="0.018063736">
+<testsuite name="MicropostsControllerTest" skipped="0" failures="0" errors="1" tests="7" assertions="12" time="0.104115962">
+  <testcase name="test_should_create_micropost" classname="MicropostsControllerTest" assertions="3" time="0.02167636">
   </testcase>
-  <testcase name="test_should_destroy_micropost" classname="MicropostsControllerTest" assertions="3" time="0.01010028">
+  <testcase name="test_should_destroy_micropost" classname="MicropostsControllerTest" assertions="3" time="0.009549618">
   </testcase>
-  <testcase name="test_should_get_edit" classname="MicropostsControllerTest" assertions="1" time="0.048513911">
+  <testcase name="test_should_get_edit" classname="MicropostsControllerTest" assertions="1" time="0.017348687">
   </testcase>
-  <testcase name="test_should_get_index" classname="MicropostsControllerTest" assertions="2" time="0.023790409">
+  <testcase name="test_should_get_index" classname="MicropostsControllerTest" assertions="2" time="0.013615558">
   </testcase>
-  <testcase name="test_should_get_new" classname="MicropostsControllerTest" assertions="1" time="0.023333161">
+  <testcase name="test_should_get_new" classname="MicropostsControllerTest" assertions="1" time="0.013177085">
   </testcase>
-  <testcase name="test_should_show_micropost" classname="MicropostsControllerTest" assertions="0" time="0.033598924">
-    <error type="test_should_show_micropost" message="ActionView::Template::Error: undefined local variable or method `user' for #&lt;#&lt;Class:0x00000006cc1d10&gt;:0x00000006f4ec90&gt;...">
+  <testcase name="test_should_show_micropost" classname="MicropostsControllerTest" assertions="0" time="0.02083956">
+    <error type="test_should_show_micropost" message="ActionView::Template::Error: undefined local variable or method `user' for #&lt;#&lt;Class:0x0000000746b2a0&gt;:0x00000007714b00&gt;...">
 Failure:
 test_should_show_micropost(MicropostsControllerTest) [/vagrant/app/views/microposts/show.html.erb:4]:
-ActionView::Template::Error: undefined local variable or method `user' for #&lt;#&lt;Class:0x00000006cc1d10&gt;:0x00000006f4ec90&gt;
-    /vagrant/app/views/microposts/show.html.erb:4:in `_app_views_microposts_show_html_erb__4379076027984458066_58354280'
+ActionView::Template::Error: undefined local variable or method `user' for #&lt;#&lt;Class:0x0000000746b2a0&gt;:0x00000007714b00&gt;
+    /vagrant/app/views/microposts/show.html.erb:4:in `_app_views_microposts_show_html_erb__4194264668969396717_62429280'
     /var/lib/gems/2.1.0/gems/actionview-4.1.1/lib/action_view/template.rb:145:in `block in render'
     /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications.rb:159:in `block in instrument'
     /var/lib/gems/2.1.0/gems/activesupport-4.1.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
@@ -86,6 +86,6 @@ ActionView::Template::Error: undefined local variable or method `user' for #&lt;
     /vagrant/test/controllers/microposts_controller_test.rb:28:in `block in &lt;class:MicropostsControllerTest&gt;'
     </error>
   </testcase>
-  <testcase name="test_should_update_micropost" classname="MicropostsControllerTest" assertions="2" time="0.007731687">
+  <testcase name="test_should_update_micropost" classname="MicropostsControllerTest" assertions="2" time="0.007909094">
   </testcase>
 </testsuite>
